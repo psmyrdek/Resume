@@ -5,7 +5,7 @@
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://psmyrdek@bitbucket.org/psmyrdek/international-collaboration.git"
+    "url": "git@github.com:psmyrdek/Resume.git"
   },
   "keywords": [
     "cv",
@@ -15,5 +15,12 @@
     "psmyrdek"
   ],
   "author": "Przemek Smyrdek @psmyrdek",
-  "homepage": "https://bitbucket.org/psmyrdek/international-collaboration#readme"
+  "homepage": "https://github.com/psmyrdek/Resume#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-sass": "^2.1.1",
+    "vue": "^1.0.15"
+  }
 }
