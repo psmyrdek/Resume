@@ -1,0 +1,19 @@
+{
+  "name": "international-collabo",
+  "version": "1.0.0",
+  "description": "CV / Resume project",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://psmyrdek@bitbucket.org/psmyrdek/international-collaboration.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "projects",
+    "abystrek",
+    "psmyrdek"
+  ],
+  "author": "Przemek Smyrdek @psmyrdek",
+  "homepage": "https://bitbucket.org/psmyrdek/international-collaboration#readme"
+}

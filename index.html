@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NAME | Hi, we create amazing things!</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="app/dist/css/common.css">
+    <link rel="stylesheet" href="app/dist/css/projects.css">
+    
+</head>
+<body>
+    <section class="content">
+        <section class="main">
+            
+            <section id="projects">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            
+                            <div class="project-wrapper" v-for="project in projects">
+                                
+                                <div class="timeline-wrapper">
+                                    <div class="timeline">
+                                        <div class="timeline-bar"></div>
+                                        <div class="timeline-circle">
+                                            <div class="timeline-circle-inner"></div>
+                                        </div>
+                                        <div class="timeline-label">
+                                            <p>{{ project.date }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="award-wrapper" v-if="project.award">
+                                    <div class="award-icon"></div>
+                                    <div class="award-description">
+                                        jakas nagroda
+                                    </div>
+                                </div>
+                                
+                                <div class="project">
+                                    <div class="project-content">
+                                        <header class="project-title">
+                                            {{ project.title }}
+                                        </header>
+                                        <p class="project-description">
+                                            {{ project.description }}
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+        <footer class="footer"></footer>
+    </section>
+    
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+    
+    <script src="app/src/js/data/projects.js"></script>
+    <script src="app/src/js/vue-components.js"></script>
+</body>
+</html>
