@@ -50,6 +50,18 @@
           font-family: 'Oswald', sans-serif;
           margin: 0;
           padding: 0; }
+  #projects .project-wrapper .award-wrapper {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 999;
+    background-color: #E23F00;
+    color: white;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 5px; }
+    #projects .project-wrapper .award-wrapper .award-icon {
+      font-size: 16px; }
   #projects .project-wrapper .project {
     width: 100%;
     height: 100%;
@@ -73,3 +85,30 @@
       #projects .project-wrapper .project .project-content .project-description {
         font-size: 16px;
         color: #5F5F5F; }
+      #projects .project-wrapper .project .project-content .addon {
+        margin-top: 5px; }
+      #projects .project-wrapper .project .project-content .listed-items {
+        margin-bottom: 20px; }
+        #projects .project-wrapper .project .project-content .listed-items .listed-items-title {
+          font-weight: 600;
+          margin-bottom: 3px; }
+        #projects .project-wrapper .project .project-content .listed-items .items-list {
+          margin: 0;
+          padding: 0;
+          list-style-type: none; }
+          #projects .project-wrapper .project .project-content .listed-items .items-list li {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            width: 80px;
+            border-radius: 3px;
+            margin-right: 5px;
+            padding: 2px 4px; }
+            #projects .project-wrapper .project .project-content .listed-items .items-list li a {
+              color: white; }
+        #projects .project-wrapper .project .project-content .listed-items .features-list li {
+          background-color: #139FE2; }
+        #projects .project-wrapper .project .project-content .listed-items .contributors-list li {
+          background-color: #777; }

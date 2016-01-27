@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="app/dist/css/common.css">
     <link rel="stylesheet" href="app/dist/css/projects.css">
@@ -38,9 +39,8 @@
                                 </div>
                                 
                                 <div class="award-wrapper" v-if="project.award">
-                                    <div class="award-icon"></div>
-                                    <div class="award-description">
-                                        jakas nagroda
+                                    <div class="award-icon">
+                                        <i class="fa fa-star"></i> Award Winner!
                                     </div>
                                 </div>
                                 
@@ -51,6 +51,26 @@
                                         </header>
                                         <p class="project-description">
                                             {{ project.description }}
+                                        </p>
+                                        
+                                        <div class="addon listed-items">
+                                            <p class="listed-items-title"><i class="fa fa-code"></i> Features:</p>
+                                            <ul class="items-list features-list">
+                                                <li v-for="feature in project.features">
+                                                    {{ feature }}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="addon listed-items" v-if="project.contributors">
+                                            <p class="listed-items-title"><i class="fa fa-users"></i> Contributors:</p>
+                                            <ul class="items-list contributors-list">
+                                                <li v-for="contributor in project.contributors">
+                                                    <a href="{{ contributor.profile }}"> {{ contributor.name }} </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <p class="addon website" v-if="project.website">
+                                            <i class="fa fa-globe"></i> <a href="{{ project.website }}"> {{ project.website }} </a>
                                         </p>
                                     </div>
                                 </div>

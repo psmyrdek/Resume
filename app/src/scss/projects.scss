@@ -2,6 +2,7 @@
     
     $project-background: #FBFBFB;
     $timeline-main-color: #E23F00;
+    $award-background: #E23F00;
     $timeline-width: 80px;
 
     .project-wrapper {
@@ -84,6 +85,23 @@
                 }
             }
         }
+        
+        .award-wrapper {
+            
+            position: absolute;
+            right: 5px;
+            top: 25px;
+            z-index: 999;
+            background-color: $award-background;
+            color: white;
+            text-align: center;
+            padding: 4px 8px;
+            border-radius: 5px;
+            
+            .award-icon {
+                font-size: 16px;
+            }
+        }
             
         .project {
             
@@ -114,6 +132,54 @@
                 .project-description {
                     font-size: 16px;
                     color: #5F5F5F;
+                }
+                
+                .addon {
+                    margin-top: 5px;
+                }
+                
+                .listed-items {
+                    margin-bottom: 20px;
+                    
+                    .listed-items-title {
+                        font-weight: 600;
+                        margin-bottom: 3px;
+                    }
+                    
+                    .items-list {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                        
+                        li {
+                            margin: 0;
+                            padding: 0;
+                            
+                            display: inline-block;
+                            color: white;
+                            text-align: center;
+                            width: 80px;
+                            border-radius: 3px;
+                            margin-right: 5px;
+                            padding: 2px 4px;
+                            
+                            a{
+                                color: white;
+                            }
+                        }
+                    }
+                    
+                    .features-list {
+                        li {
+                            background-color: #139FE2;
+                        }
+                    }
+                    
+                    .contributors-list {
+                        li {
+                            background-color: #777;
+                        }
+                    }
                 }
                 
             }
