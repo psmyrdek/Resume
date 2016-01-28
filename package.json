@@ -15,7 +15,7 @@
     "psmyrdek"
   ],
   "author": "Przemek Smyrdek @psmyrdek",
-  "homepage": "https://github.com/psmyrdek/Resume#readme",
+  "homepage": "http://webresume.azurewebsites.net/",
   "dependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.5.0",
