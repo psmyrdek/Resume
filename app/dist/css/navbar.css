@@ -1,0 +1,30 @@
+.site-navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 3px -1px rgba(243, 243, 243, 0.8); }
+  .site-navbar .menu {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    .site-navbar .menu ul {
+      clear: left;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding-top: 18px;
+      padding-bottom: 15px;
+      position: relative;
+      left: 50%;
+      text-align: center; }
+      .site-navbar .menu ul li {
+        display: inline-block;
+        margin: 0 15px;
+        position: relative;
+        right: 50%; }
+        .site-navbar .menu ul li a {
+          color: black; }

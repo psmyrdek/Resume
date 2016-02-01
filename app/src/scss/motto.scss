@@ -1,0 +1,23 @@
+.motto {
+    width: 100%;
+    padding: 200px 0;
+    // background: url('/static/images/motto_bg.jpg');
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    
+    .text {
+        text-align: center;
+        font-size: 40px;
+        color: #6F6F6F;
+        font-family: 'Roboto Slab', sans-serif;
+        
+        .bold-text {
+            color: black;
+            font-weight: 600;
+            border-bottom: 1px solid black;
+        }
+    }
+    
+    
+}
