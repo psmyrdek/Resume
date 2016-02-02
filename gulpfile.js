@@ -1,5 +1,7 @@
 var gulp = require('gulp');
+var cssnano = require('gulp-cssnano');
 var sass = require('gulp-sass');
+var concat = require('gulp-concat');
 
 gulp.task('styles', function() {
     gulp.src('app/src/scss/*.scss')
@@ -7,6 +9,15 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('app/dist/css/'));
 });
 
-gulp.task('default', function() {
+gulp.task('styles-min', function() {
+    return gulp.src('app/dist/css/*.css')
+        .pipe(cssnano())
+        .pipe(concat('styles.min.css'))
+        .pipe(gulp.dest('app/dist/css/'));
+});
+
+gulp.task('dev', function() {
     gulp.watch('app/src/scss/*.scss', ['styles']);
 });
+
+gulp.task('default', ['styles', 'styles-min']);
