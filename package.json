@@ -7,8 +7,14 @@
     "type": "git",
     "url": "git@github.com:psmyrdek/Resume.git"
   },
-  "keywords": [ 
-      "cv", "resume", "projects", ".net", "js", "abystrek", "psmyrdek" 
+  "keywords": [
+    "cv",
+    "resume",
+    "projects",
+    ".net",
+    "js",
+    "abystrek",
+    "psmyrdek"
   ],
   "author": "Przemek Smyrdek @psmyrdek",
   "homepage": "http://webresume.azurewebsites.net/",
@@ -23,8 +29,8 @@
   "devDependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.5.0",
-    "gulp-cssnano": "^2.1.0",
     "gulp-concat": "^2.1.0",
+    "gulp-cssnano": "^2.1.0",
     "gulp-sass": "^2.1.1",
     "vue": "^1.0.15"
   }
