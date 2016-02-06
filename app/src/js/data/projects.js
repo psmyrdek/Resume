@@ -18,7 +18,7 @@ var ProjectsModule = (function(module){
         },
         {
             date: '06.2015',
-            title: 'WMS - Warehouse management',
+            title: 'WMS',
             award: true,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare nec urna sit amet eleifend. Nam non tellus sed leo rhoncus blandit eget sed nibh. Etiam vel dolor lectus. Nam elementum placerat accumsan. Pellentesque lacinia neque at diam ornare, ut molestie tortor tempus. ',
             features: ['.NET', 'AngularJS', 'SignalR'],
@@ -26,7 +26,7 @@ var ProjectsModule = (function(module){
         },
         {
             date: '03.2015',
-            title: 'NAV24',
+            title: 'NAV24.pl',
             award: true,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare nec urna sit amet eleifend. Nam non tellus sed leo rhoncus blandit eget sed nibh. Etiam vel dolor lectus. Nam elementum placerat accumsan. Pellentesque lacinia neque at diam ornare, ut molestie tortor tempus. ',
             features: ['.NET', 'AngularJS', 'SignalR'],
