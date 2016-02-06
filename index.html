@@ -67,7 +67,7 @@
                                 
                                 <div class="award-wrapper" v-if="project.award">
                                     <div class="award-icon">
-                                        <i class="fa fa-star"></i> Award Winner!
+                                        <i class="fa fa-star"></i> {{ project.award }}
                                     </div>
                                 </div>
                                 
@@ -81,7 +81,7 @@
                                         </p>
                                         
                                         <div class="addon listed-items">
-                                            <p class="listed-items-title"><i class="fa fa-code"></i> Features:</p>
+                                            <p class="listed-items-title"><i class="fa fa-code"></i> Built with:</p>
                                             <ul class="items-list features-list">
                                                 <li v-for="feature in project.features">
                                                     {{ feature }}
