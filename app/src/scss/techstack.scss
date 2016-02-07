@@ -1,15 +1,7 @@
 @import 'globals';
 
 #tech-stack {
-    .section-title {
-        margin: 0;
-        padding: 0;
-        margin-bottom: 20px;
-        font-family: 'Montserrat', sans-serif;
-        background-color: $main-color;
-        color: white;
-        padding: 10px;
+    .tech-item {
         
-        @include with-text-shadow;
     }
 }
