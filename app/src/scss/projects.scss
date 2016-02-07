@@ -1,9 +1,15 @@
+@import 'globals';
+
 #projects {
     
     $project-background: #FBFBFB;
-    $timeline-main-color: #E23F00;
+    $timeline-main-color: $main-color;
     $award-background: #fff;
     $timeline-width: 80px;
+    
+    .project-wrapper:last-child {
+        padding-bottom: 50px;
+    }
     
     .project-wrapper {
         position: relative;
@@ -12,7 +18,7 @@
         
         .timeline-wrapper {
             
-            z-index: 999;
+            z-index: 10;
             height: 100%;
             position: absolute;
             left: 0;
@@ -38,7 +44,7 @@
                 .timeline-circle {
                     
                     position: relative;
-                    top: 40px;
+                    top: 35px;
                     margin: 0 auto;
                     
                     $size: 40px;
@@ -48,6 +54,7 @@
                     
                     background-color: $timeline-main-color;
                     border-radius: 100%;
+                    z-index: 3;
                     
                     .timeline-circle-inner { 
                         
@@ -67,13 +74,14 @@
                 }
                 
                 .timeline-label {
-                    width: 60px;
+                    width: 70px;
                     text-align: center;
-                    background-color: #E23F00;
+                    background-color: darken($main-color, 5%);
                     color: white;
                     position: absolute;
                     left: -45px;
-                    top: 50px;
+                    top: 45px;
+                    padding-right: 10px;
                     border-top-left-radius: 6px;
                     border-bottom-left-radius: 6px;
                     
@@ -92,7 +100,7 @@
         .award-wrapper {
             
             position: absolute;
-            right: 10px;
+            right: 25px;
             top: 38px;
             z-index: 999;
             background-color: $award-background;
@@ -166,7 +174,8 @@
                             text-align: center;
                             min-width: 80px;
                             margin-right: 5px;
-                            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+                            
+                            @include with-text-shadow;
                             
                             a{
                                 color: white;

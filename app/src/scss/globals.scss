@@ -1,0 +1,5 @@
+$main-color: #E23F00;
+
+@mixin with-text-shadow {
+    text-shadow: 0 2px 3px rgba(123, 0, 0, 0.4);
+}
