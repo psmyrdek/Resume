@@ -12,7 +12,7 @@ var ProjectsModule = (function(module){
             date: '08.2015',
             title: 'IT Learning',
             description: 'IT Learning is a brand new platform dedicated to software development students. Sure... we know that you\'ve heard about some other apps based on this idea but who said they can\'t be improved? We tried to do our best! Whole development stage was made in truly agile approach - tasks were divided among iterations, every idea was consulted with potential users and some well-known experts from IT companies, and to be honest - there is still a lot of work to do in front of us. And a lot of knowledge have already been gained!',
-            features: ['ASP NET 5', 'Angular JS', 'LibGit2Sharp'],
+            features: ['ASP NET Core 1.0', 'Angular JS', 'LibGit2Sharp'],
             website: 'http://www.poznajprogramowanie.pl'
         },
         {

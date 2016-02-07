@@ -2,6 +2,91 @@
 
 #tech-stack {
     .tech-item {
+        text-align: center;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding: 5px 0;
+        margin-bottom: 10px;
         
+        @include with-text-shadow;
+        @include with-animated-background(300ms);
+        
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    .row-tech-item-big {
+        .tech-item {
+            font-size: 30px;
+        }
+    }
+    
+    .row-tech-item-medium {
+        .tech-item {
+            font-size: 20px;
+        }
+    }
+    
+    .row-color-1 {
+        .tech-item {
+            $item-color: $main-color;
+            
+            background-color: $item-color;
+            
+            &:hover {
+                background-color: lighten($item-color, 4%);
+            }
+        }
+    }
+    
+    .row-color-2 {
+        .tech-item {
+            $item-color: darken($main-color, 4%);
+            
+            background-color: $item-color;
+            
+            &:hover {
+                background-color: lighten($item-color, 4%);
+            }
+        }
+    }
+    
+    .row-color-3 {
+        .tech-item {
+            $item-color: darken($main-color, 8%);
+            
+            background-color: $item-color;
+            
+            &:hover {
+                background-color: lighten($item-color, 4%);
+            }
+        }
+    }
+    
+    .row-color-4 {
+        .tech-item {
+            $item-color: darken($main-color, 12%);
+            
+            background-color: $item-color;
+            
+            &:hover {
+                background-color: lighten($item-color, 4%);
+            }
+        }
+    }
+    
+    .row-color-5 {
+        .tech-item {
+            $item-color: darken($main-color, 16%);
+            
+            background-color: $item-color;
+            
+            &:hover {
+                background-color: lighten($item-color, 4%);
+            }
+        }
     }
 }

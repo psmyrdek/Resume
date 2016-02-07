@@ -3,3 +3,22 @@ $main-color: #E23F00;
 @mixin with-text-shadow {
     text-shadow: 0 2px 3px rgba(123, 0, 0, 0.4);
 }
+
+/**
+    Usage:
+    
+    .somediv {
+        background-color: red;
+        
+        @include with-animated-background(300ms);
+        &:hover {
+            background-color: green;
+        }
+    }
+*/
+@mixin with-animated-background($time) {
+    -webkit-transition: background-color $time ease;
+    -moz-transition: background-color $time ease;
+    -o-transition: background-color $time ease;
+    transition: background-color $time ease;
+}
