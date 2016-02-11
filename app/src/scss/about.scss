@@ -1,0 +1,79 @@
+@import 'globals';
+
+#about {
+    margin-bottom: 50px;
+    
+    .profiles-description {
+        position: relative;
+        top: 50px;
+        text-align: center;
+        
+        .profiles-description-text {
+            font-size: 16px;
+            color: #5f5f5f;
+            margin: 10px 0;
+            line-height: 1.7;
+        }
+        
+        .profiles-description-text:nth-child(1) { 
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    
+    .profile-img {
+        display: block;
+        position: relative;
+        margin: 50px auto;
+    }
+    
+    .profile-name {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+    }
+    
+    .btn-profile {
+        margin: 0 auto;
+        border-radius: 0px;
+        display: block;
+        padding: 3px 25px;
+    }
+}
+
+.about-modals {
+    
+    .modal {
+        font-family: 'Roboto', sans-serif;
+        
+        .modal-content {
+            border-radius: 0px;
+            box-shadow: 0px 10px 27px -3px rgba(0,0,0,.5);
+            
+            .modal-title {
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            .modal-body {
+                background-color: #fdfdfd;
+            }
+        }
+    }
+    
+    .profile-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            display: inline-block;
+            margin-right: 5px;
+            
+            a {
+                color: $main-color;
+                font-size: 25px;
+            }
+        }
+    }
+}
