@@ -45,7 +45,14 @@
             date: '06.2015',
             title: 'WMS',
             description: 'It was a real challenge for us - Warehouse Management System, based on Microsoft Dynamics NAV 2015 (ERP-class solution), integrated with 3rd party APIs, with brand new hardware from Panasonic, and of course Windows Phone 8.1 - quite a lot of things to do, don\'t you think? We\'ve created a solid foundation for modern mobile application dedicated to warehouse employees, based on experience and knowledge of NAV24 experts and consultants. Find more about this project at NAV24\'s website.',
-            features: ['Windows Phone 8.1', 'MVVM', 'Microsoft Dynamics NAV']
+            features: ['Windows Phone 8.1', 'MVVM', 'Microsoft Dynamics NAV'],
+            screens: [
+                {
+                    name: 'wms_1.jpg',
+                    path: './Content/wms_1.jpg',
+                    path_mini: './Content/wms_1mini.jpg'
+                }
+            ]
         },
         {
             date: '03.2015',
@@ -70,6 +77,33 @@
                     name: 'Ania',
                     profile: 'https://www.linkedin.com/in/anna-garncarczyk-27b571a5'
                 },
+            ],
+            screens: [
+                {
+                    name: 'untwisted_1.jpg',
+                    path: './Content/untwisted_1.jpg',
+                    path_mini: './Content/untwisted_1mini.jpg'
+                },
+                {
+                    name: 'untwisted_2.jpg',
+                    path: './Content/untwisted_2.jpg',
+                    path_mini: './Content/untwisted_2mini.jpg'
+                },
+                {
+                    name: 'untwisted_3.jpg',
+                    path: './Content/untwisted_3.jpg',
+                    path_mini: './Content/untwisted_3mini.jpg'
+                },
+                {
+                    name: 'untwisted_4.jpg',
+                    path: './Content/untwisted_4.jpg',
+                    path_mini: './Content/untwisted_4mini.jpg'
+                },
+                            {
+                    name: 'untwisted_5.jpg',
+                    path: './Content/untwisted_5.jpg',
+                    path_mini: './Content/untwisted_5mini.jpg'
+                }
             ]
         },
         {
@@ -91,7 +125,34 @@
             award: 'Microsoft Imagine Cup 2014 - Top 30',
             description: 'Coordinator is a high-performance, real-time system dedicated to volunteer firefighters. With our solution they can easily cooperate with each other during emergency situations. Coordinator is also a social network for teams of firefighters who can set up their profiles, work and chat in teams and manage reports from actions there. It is based on ASP.NET MVC platform and SignalR library which helped us to create real-time data flow inside our solution. Coordinator was probably the most important project for us just because it was a first project which we\'ve managed (as we believe - successfully) together.',
             features: ['SignalR', 'Cross-platform', 'Google Maps API'],
-            website: 'http://coordinatorprototype.azurewebsites.net/'
+            website: 'http://coordinatorprototype.azurewebsites.net/',
+            screens: [
+                {
+                    name: 'coordinator_1.jpg',
+                    path: './Content/coordinator_1.jpg',
+                    path_mini: './Content/coordinator_1mini.jpg'
+                },
+                {
+                    name: 'coordinator_2.jpg',
+                    path: './Content/coordinator_2.jpg',
+                    path_mini: './Content/coordinator_2mini.jpg'
+                },
+                {
+                    name: 'coordinator_3.jpg',
+                    path: './Content/coordinator_3.jpg',
+                    path_mini: './Content/coordinator_3mini.jpg'
+                },
+                {
+                    name: 'coordinator_4.jpg',
+                    path: './Content/coordinator_4.jpg',
+                    path_mini: './Content/coordinator_4mini.jpg'
+                },
+                {
+                    name: 'coordinator_5.jpg',
+                    path: './Content/coordinator_5.jpg',
+                    path_mini: './Content/coordinator_5mini.jpg'
+                }
+            ]
         }
     ];
     
