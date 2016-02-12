@@ -12,7 +12,34 @@
             title: 'IT Learning',
             description: 'IT Learning is a brand new platform dedicated to software development students. Sure... we know that you\'ve heard about some other apps based on this idea but who said they can\'t be improved? We tried to do our best! Whole development stage was made in truly agile approach - tasks were divided among iterations, every idea was consulted with potential users and some well-known experts from IT companies, and to be honest - there is still a lot of work to do in front of us. And a lot of knowledge have already been gained!',
             features: ['ASP NET Core 1.0', 'Angular JS', 'LibGit2Sharp'],
-            website: 'http://www.poznajprogramowanie.pl'
+            website: 'http://www.poznajprogramowanie.pl',
+            screens: [
+                {
+                    name: 'itlearning_1.jpg',
+                    path: './Content/itlearning_1.jpg',
+                    path_mini: './Content/itlearning_1mini.jpg'
+                },
+                {
+                    name: 'itlearning_2.jpg',
+                    path: './Content/itlearning_2.jpg',
+                    path_mini: './Content/itlearning_2mini.jpg'
+                },
+                {
+                    name: 'itlearning_3.jpg',
+                    path: './Content/itlearning_3.jpg',
+                    path_mini: './Content/itlearning_3mini.jpg'
+                },
+                {
+                    name: 'itlearning_4.jpg',
+                    path: './Content/itlearning_4.jpg',
+                    path_mini: './Content/itlearning_4mini.jpg'
+                },
+                            {
+                    name: 'itlearning_5.jpg',
+                    path: './Content/itlearning_5.jpg',
+                    path_mini: './Content/itlearning_5mini.jpg'
+                }
+            ]
         },
         {
             date: '06.2015',

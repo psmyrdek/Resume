@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     
+    <link rel="stylesheet" href="app/dist/lightbox/css/lightbox.min.css">
     <link rel="stylesheet" href="app/dist/css/styles.min.css">
 </head>
 <body data-spy="scroll" data-target="#navbar-menu">
@@ -149,6 +150,14 @@
                                         <p class="addon website" v-if="project.website">
                                             <i class="fa fa-globe"></i> <a href="{{ project.website }}" target="_blank"> {{ project.website }} </a>
                                         </p>
+                                        <div class="addon listed-items" v-if="project.screens">
+                                            <p class="listed-items-title"><i class="fa fa-eye"></i> Screens:</p>
+                                            <div v-for="screen in project.screens">
+                                                <a style="text-decoration: none" href="screen.path" data-lightbox="screen.name">
+                                                    <img src="screen.path_mini" />
+                                                </a> 
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -456,6 +465,8 @@
             </div>
         </div>
     </div>
+    
+    <script src="app/dist/lightbox/js/lightbox-plus-jquery.min.js"></script>
     
     <script src="node_modules/vue/dist/vue.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
