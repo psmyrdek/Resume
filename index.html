@@ -156,8 +156,12 @@
                                                 style="text-decoration: none" 
                                                 href="{{ screen.path }}" 
                                                 data-lightbox="{{ screen.name }}">
-                                                <img src="{{ screen.path_mini }}" />
+                                                <img src="{{ screen.path_mini }}" style="border: 0.15em solid; border-color: #e23f00;" />
                                             </a> 
+                                        </div>
+                                        <div class="addon listed-items" v-if="project.presentation">
+                                            <p class="listed-items-title"><i class="fa fa-cloud-download"></i> Presentation:</p>
+                                            <a href="{{ project.presentation }}" target="_blank">Download</a>
                                         </div>
                                     </div>
                                 </div>
