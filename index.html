@@ -147,8 +147,9 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <p class="addon website" v-if="project.website">
-                                            <i class="fa fa-globe"></i> <a href="{{ project.website }}" target="_blank"> {{ project.website }} </a>
+                                        <p class="addon listed-items" v-if="project.website">
+                                            <p class="listed-items-title"><i class="fa fa-globe"></i> Website:</p>
+                                            <a href="{{ project.website }}" target="_blank"> {{ project.website }} </a>
                                         </p>
                                         <div class="addon listed-items" v-if="project.screens">
                                             <p class="listed-items-title"><i class="fa fa-eye"></i> Screens:</p>
@@ -156,7 +157,7 @@
                                                 style="text-decoration: none" 
                                                 href="{{ screen.path }}" 
                                                 data-lightbox="{{ screen.name }}">
-                                                <img src="{{ screen.path_mini }}" style="border: 0.15em solid; border-color: #e23f00;" />
+                                                <img src="{{ screen.path_mini }}" style="border: 0.1em solid; border-color: #e23f00;" />
                                             </a> 
                                         </div>
                                         <div class="addon listed-items" v-if="project.presentation">
