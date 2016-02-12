@@ -153,8 +153,8 @@
                                         <div class="addon listed-items" v-if="project.screens">
                                             <p class="listed-items-title"><i class="fa fa-eye"></i> Screens:</p>
                                             <div v-for="screen in project.screens">
-                                                <a style="text-decoration: none" href="screen.path" data-lightbox="screen.name">
-                                                    <img src="screen.path_mini" />
+                                                <a style="text-decoration: none" href="{{ screen.path }}" data-lightbox="{{ screen.name }}">
+                                                    <img src="{{ screen.path_mini }}" />
                                                 </a> 
                                             </div>
                                         </div>
