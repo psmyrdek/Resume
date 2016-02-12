@@ -1,12 +1,11 @@
-var ProjectsModule = (function(module){
+﻿var ProjectsModule = (function(module){
     
     module.list = [
         {
             date: '02.2016',
             title: 'Web Resume',
             description: 'Web Resume is a lightweight web application built to sum up our recent project and achievements. We decided to create a simple website, with clean, responsive design - it should be a modern version of our CV. You can find here a summary of our activity - read more about our approaches to Microsoft Imagine Cup, check out our web applications and, like it is said above - let\'s get to know each other a little bit better.',
-            features: ['SCSS', 'Vue.JS', 'Gulp'],
-            website: 'http://www.webresume.azurewebsites.net'
+            features: ['SCSS', 'Vue.JS', 'Gulp']
         },
         {
             date: '08.2015',
