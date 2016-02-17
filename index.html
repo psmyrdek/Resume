@@ -23,11 +23,14 @@
 <body data-spy="scroll" data-target="#navbar-menu">
     <section class="content">
         <section class="main">
-            <section class="site-navbar" style="z-index: 99999;">
+            <section id="navbar" class="site-navbar" style="z-index: 99999;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <nav class="nav menu" id="navbar-menu">
+                            <div class="navbar-menu-button" v-on:click="toggleMenu">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <nav class="nav menu" id="navbar-menu" v-if="isMenuVisible">
                                 <ul>
                                     <li>
                                         <a href="#home">Home</a>

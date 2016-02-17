@@ -4,38 +4,47 @@
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.95);
     box-shadow: 0 2px 3px -1px rgba(243, 243, 243, 0.95);
+    
+    .navbar-menu-button {
+        color: #484848;
+        font-weight: 700;
+        font-size: 28px;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        display: inline-block;
         
+        @include with-animated-color(300ms);
+        &:hover {
+            color: $main-color;
+        }
+    }
+    
     .menu {
-        float: left;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
+        background-color: rgba(255,255,255,0.95);
+        box-shadow: 0 2px 3px -1px rgba(243, 243, 243, 0.95);
+        position: absolute;
+        width: 200px;
         
         ul {
-            clear: left;
-            float: left;
             list-style: none;
             margin: 0;
             padding: 0;
-            padding-top: 18px;
-            padding-bottom: 15px;
-            position: relative;
-            left: 50%;
-            text-align: center;
             
             li {
-                display: inline-block;
-                margin: 0 15px;
-                position:relative;
-                right:50%;
+                position: relative;
+                text-align: left;
+                margin: 15px 0;
+                margin-left: 25px;
                 
                 a {
                     color: #484848;
                     font-weight: 700;
                     font-size: 16px;
                     
+                    @include with-animated-color(300ms);
                     &:hover {
                         color: $main-color;
                         text-decoration: none;
