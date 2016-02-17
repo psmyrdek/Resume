@@ -2,11 +2,19 @@
 
 .motto {
     width: 100%;
-    padding: 300px 0;
+    
+    @media screen and (min-width: 992px) {
+        padding: 300px 0;
+    }
+    
+    @media screen and (max-width: 992px) {
+        position: relative;
+        top: 100px;
+        margin-bottom: 200px;
+    }
     
     .text {
         text-align: center;
-        font-size: 40px;
         color: #6F6F6F;
         font-family: 'Montserrat', sans-serif;
         
@@ -17,6 +25,22 @@
             padding: 5px 10px;
             
             @include with-text-shadow;
+        }
+        
+        @media screen and (min-width: 992px) {
+            font-size: 40px;
+        }
+        
+        @media screen and (max-width: 992px) {
+            font-size: 30px;
+            
+            .bold-text {
+                position: relative;
+                top: 15px;
+                display: block;
+                width: 350px;
+                margin: 0 auto;
+            }
         }
     }
     

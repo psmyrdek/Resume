@@ -16,28 +16,28 @@
             screens: [
                 {
                     name: 'itlearning_1.jpg',
-                    path: './Content/itlearning_1.jpg',
-                    path_mini: './Content/itlearning_1mini.jpg'
+                    path: './static/itlearning_1.jpg',
+                    path_mini: './static/itlearning_1mini.jpg'
                 },
                 {
                     name: 'itlearning_2.jpg',
-                    path: './Content/itlearning_2.jpg',
-                    path_mini: './Content/itlearning_2mini.jpg'
+                    path: './static/itlearning_2.jpg',
+                    path_mini: './static/itlearning_2mini.jpg'
                 },
                 {
                     name: 'itlearning_3.jpg',
-                    path: './Content/itlearning_3.jpg',
-                    path_mini: './Content/itlearning_3mini.jpg'
+                    path: './static/itlearning_3.jpg',
+                    path_mini: './static/itlearning_3mini.jpg'
                 },
                 {
                     name: 'itlearning_4.jpg',
-                    path: './Content/itlearning_4.jpg',
-                    path_mini: './Content/itlearning_4mini.jpg'
+                    path: './static/itlearning_4.jpg',
+                    path_mini: './static/itlearning_4mini.jpg'
                 },
                             {
                     name: 'itlearning_5.jpg',
-                    path: './Content/itlearning_5.jpg',
-                    path_mini: './Content/itlearning_5mini.jpg'
+                    path: './static/itlearning_5.jpg',
+                    path_mini: './static/itlearning_5mini.jpg'
                 }
             ]
         },
@@ -49,8 +49,8 @@
             screens: [
                 {
                     name: 'wms_1.jpg',
-                    path: './Content/wms_1.jpg',
-                    path_mini: './Content/wms_1mini.jpg'
+                    path: './static/wms_1.jpg',
+                    path_mini: './static/wms_1mini.jpg'
                 }
             ]
         },
@@ -81,31 +81,31 @@
             screens: [
                 {
                     name: 'untwisted_1.jpg',
-                    path: './Content/untwisted_1.jpg',
-                    path_mini: './Content/untwisted_1mini.jpg'
+                    path: './static/untwisted_1.jpg',
+                    path_mini: './static/untwisted_1mini.jpg'
                 },
                 {
                     name: 'untwisted_2.jpg',
-                    path: './Content/untwisted_2.jpg',
-                    path_mini: './Content/untwisted_2mini.jpg'
+                    path: './static/untwisted_2.jpg',
+                    path_mini: './static/untwisted_2mini.jpg'
                 },
                 {
                     name: 'untwisted_3.jpg',
-                    path: './Content/untwisted_3.jpg',
-                    path_mini: './Content/untwisted_3mini.jpg'
+                    path: './static/untwisted_3.jpg',
+                    path_mini: './static/untwisted_3mini.jpg'
                 },
                 {
                     name: 'untwisted_4.jpg',
-                    path: './Content/untwisted_4.jpg',
-                    path_mini: './Content/untwisted_4mini.jpg'
+                    path: './static/untwisted_4.jpg',
+                    path_mini: './static/untwisted_4mini.jpg'
                 },
                             {
                     name: 'untwisted_5.jpg',
-                    path: './Content/untwisted_5.jpg',
-                    path_mini: './Content/untwisted_5mini.jpg'
+                    path: './static/untwisted_5.jpg',
+                    path_mini: './static/untwisted_5mini.jpg'
                 }
             ],
-            presentation: './Content/untwisted.pdf'
+            presentation: './static/untwisted.pdf'
         },
         {
             date: '01.2015',
@@ -130,31 +130,31 @@
             screens: [
                 {
                     name: 'coordinator_1.jpg',
-                    path: './Content/coordinator_1.jpg',
-                    path_mini: './Content/coordinator_1mini.jpg'
+                    path: './static/coordinator_1.jpg',
+                    path_mini: './static/coordinator_1mini.jpg'
                 },
                 {
                     name: 'coordinator_2.jpg',
-                    path: './Content/coordinator_2.jpg',
-                    path_mini: './Content/coordinator_2mini.jpg'
+                    path: './static/coordinator_2.jpg',
+                    path_mini: './static/coordinator_2mini.jpg'
                 },
                 {
                     name: 'coordinator_3.jpg',
-                    path: './Content/coordinator_3.jpg',
-                    path_mini: './Content/coordinator_3mini.jpg'
+                    path: './static/coordinator_3.jpg',
+                    path_mini: './static/coordinator_3mini.jpg'
                 },
                 {
                     name: 'coordinator_4.jpg',
-                    path: './Content/coordinator_4.jpg',
-                    path_mini: './Content/coordinator_4mini.jpg'
+                    path: './static/coordinator_4.jpg',
+                    path_mini: './static/coordinator_4mini.jpg'
                 },
                 {
                     name: 'coordinator_5.jpg',
-                    path: './Content/coordinator_5.jpg',
-                    path_mini: './Content/coordinator_5mini.jpg'
+                    path: './static/coordinator_5.jpg',
+                    path_mini: './static/coordinator_5mini.jpg'
                 }
             ],
-            presentation: './Content/coordinator.pdf'
+            presentation: './static/coordinator.pdf'
         }
     ];
     

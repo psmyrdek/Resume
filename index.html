@@ -52,7 +52,7 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="row">
-                                <div class="col-md-6 col-md-push-3">
+                                <div class="col-xs-12 col-md-6 col-md-push-3">
                                     <div class="profiles-description">
                                         <p class="profiles-description-text">
                                             Hello,
@@ -77,15 +77,15 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-3  col-md-pull-6">
-                                    <img src="Content/ic_przemek.jpg" alt="Przemek Smyrdek" class="profile-img img-responsive">
+                                <div class="col-xs-5 col-md-3 col-md-pull-6">
+                                    <img src="static/ic_przemek.jpg" alt="Przemek Smyrdek" class="profile-img img-responsive">
                                     <h4 class="profile-name">Przemek Smyrdek</h4>
                                     <button class="btn btn-danger btn-profile" data-toggle="modal" data-target="#smyrdek-modal">
                                         About me
                                     </button>
                                 </div>
-                                <div class="col-md-3">
-                                    <img src="Content/ic_adrian.jpg" alt="Adrian Bystrek" class="profile-img img-responsive">
+                                <div class="col-xs-5 col-xs-offset-2 col-md-3 col-md-offset-0">
+                                    <img src="static/ic_adrian.jpg" alt="Adrian Bystrek" class="profile-img img-responsive">
                                     <h4 class="profile-name">Adrian Bystrek</h4>
                                     <button class="btn btn-danger btn-profile" data-toggle="modal" data-target="#bystrek-modal">
                                         About me
@@ -157,7 +157,7 @@
                                                 style="text-decoration: none" 
                                                 href="{{ screen.path }}" 
                                                 data-lightbox="{{ screen.name }}">
-                                                <img src="{{ screen.path_mini }}" style="border: 0.1em solid; border-color: #e23f00;" />
+                                                <img src="{{ screen.path_mini }}" class="project-screen"/>
                                             </a> 
                                         </div>
                                         <div class="addon listed-items" v-if="project.presentation">
