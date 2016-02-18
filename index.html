@@ -163,7 +163,7 @@
                                                 style="text-decoration: none" 
                                                 href="{{ screen.path }}" 
                                                 data-lightbox="{{ screen.name }}">
-                                                <img v-attr="src: screen.path_mini" class="project-screen"/>
+                                                <img v-bind:src="screen.path_mini" class="project-screen"/>
                                             </a> 
                                         </div>
                                         <div class="addon listed-items" v-if="project.presentation">
