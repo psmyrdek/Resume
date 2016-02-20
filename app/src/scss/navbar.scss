@@ -1,54 +1,78 @@
 @import 'globals';
 
-.site-navbar {
+#page-navbar {
     width: 100%;
+    padding: 15px 0;
     position: fixed;
     top: 0;
-    background-color: rgba(255,255,255,0.95);
-    box-shadow: 0 2px 3px -1px rgba(243, 243, 243, 0.95);
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 -1px 7px rgba(0,0,0,.1);
     
-    .navbar-menu-button {
-        color: #484848;
-        font-weight: 700;
-        font-size: 28px;
-        padding: 10px 20px;
-        margin: 5px;
-        cursor: pointer;
-        display: inline-block;
+    .page-navbar-content {
+        position: relative;
         
-        @include with-animated-color(300ms);
-        &:hover {
-            color: $main-color;
-        }
-    }
-    
-    .menu {
-        background-color: rgba(255,255,255,0.95);
-        box-shadow: 0 2px 3px -1px rgba(243, 243, 243, 0.95);
-        position: absolute;
-        width: 200px;
-        
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
+        .menu-toggle-btn {
+            font-size: 24px;
+            padding: 3px 15px;
+            border: none;
+            color: white;
+            background-color: $main-color;
+            box-shadow: 0 3px 11px -5px rgba(0,0,0,0.3);
+            border-bottom: 2px solid #A22F02;
             
-            li {
-                position: relative;
-                text-align: left;
-                margin: 15px 0;
-                margin-left: 25px;
+            @include with-animated-background(300ms);
+            &:hover {
+                background-color: lighten($main-color, 3%);
+            }
+            
+            &:focus {
+                outline: none;
+                background-color: lighten($main-color, 3%);
+            }
+            
+            &:active {
+                outline: none;
+                background-color: darken($main-color, 5%);
+            }
+        }
+        
+        .page-navbar-menu {
+            position: absolute;
+            background-color: $main-color;
+            box-shadow: 0 3px 11px -5px rgba(0,0,0,0.3);
+            border-bottom: 2px solid #A22F02;
+            left: 0px;
+            top: 40px;
+            
+            @media screen and (max-width: 992px) { 
+                width: 100%;
+                text-align: center;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
                 
-                a {
-                    color: #484848;
-                    font-weight: 700;
-                    font-size: 16px;
+                li {
                     
-                    @include with-animated-color(300ms);
+                    @include with-animated-background(300ms);
                     &:hover {
-                        color: $main-color;
-                        text-decoration: none;
+                        background-color: lighten($main-color, 3%);
                     }
+                    
+                    a {
+                        display: block;
+                        padding: 10px 20px;
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                        
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }    
                 }
             }
         }
