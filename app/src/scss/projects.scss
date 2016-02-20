@@ -194,6 +194,21 @@
                 .listed-items {
                     margin-bottom: 20px;
                     
+                    .website-button {
+                        background-color: $main-color;
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                        padding: 3px 10px;
+                        box-shadow: 0 3px 11px -5px rgba(0,0,0,0.3);
+                        border-bottom: 2px solid #A22F02;
+                        
+                        @include with-animated-background(300ms);
+                        &:hover {
+                            background-color: lighten($main-color, 5%);
+                            text-decoration: none;
+                        }
+                    }
+                    
                     .listed-items-title {
                         font-weight: 600;
                         margin-bottom: 3px;
