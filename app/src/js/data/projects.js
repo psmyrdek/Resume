@@ -2,6 +2,30 @@
     
     module.list = [
         {
+            date: '05.2016',
+            title: 'Poznaj Programowanie',
+            description: 'Poznaj Programowanie is our newest project related to software development world. Based on our experience, we\'ve created a modern, well-designed blog dedicated to everyone who\'d like to know what does it mean to be a software developer in the 21st century. If you are looking for informations about coder\'s career path, education or IT-industry it will be a perfect place for you. To learn something more about our profession please visit Poznaj Programowanie, and be sure, that this is something more that typical blog for developers!',
+            website: 'http://www.poznajprogramowanie.pl',
+            features: ['CMS', 'PHP', 'Wordpress'],
+            screens: [
+                {
+                    name: 'PoznajProgramowanie.png',
+                    path: './static/PoznajProgramowanie1.png',
+                    path_mini: './static/PoznajProgramowanie_mini.png'
+                },
+                {
+                    name: 'PoznajProgramowanie_Portal.jpg',
+                    path: './static/PoznajProgramowanie_Portal.jpg',
+                    path_mini: './static/PoznajProgramowanie2_mini.jpg'
+                },
+                {
+                    name: 'PoznajProgramowanie_Portal2.png',
+                    path: './static/PoznajProgramowanie_Portal2.png',
+                    path_mini: './static/PoznajProgramowanie_Portal2_mini.jpg'
+                }
+            ]
+        },
+        {
             date: '02.2016',
             title: 'Web Resume',
             description: 'Web Resume is a lightweight web application built to sum up our recent project and achievements. We decided to create a simple website, with clean, responsive design - it should be a modern version of our CV. You can find here a summary of our activity - read more about our approaches to Microsoft Imagine Cup, check out our web applications and, like it is said above - let\'s get to know each other a little bit better.',
@@ -12,7 +36,6 @@
             title: 'IT Learning',
             description: 'IT Learning is a brand new platform dedicated to software development students. Sure... we know that you\'ve heard about some other apps based on this idea but who said they can\'t be improved? We tried to do our best! Whole development stage was made in truly agile approach - tasks were divided among iterations, every idea was consulted with potential users and some well-known experts from IT companies, and to be honest - there is still a lot of work to do in front of us. And a lot of knowledge have already been gained!',
             features: ['ASP NET Core 1.0', 'Angular JS', 'LibGit2Sharp'],
-            website: 'http://www.poznajprogramowanie.pl',
             screens: [
                 {
                     name: 'itlearning_1.jpg',
