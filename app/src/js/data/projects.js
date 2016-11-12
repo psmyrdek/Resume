@@ -35,6 +35,7 @@
             date: '08.2015',
             title: 'IT Learning',
             description: 'IT Learning is a brand new platform dedicated to software development students. Sure... we know that you\'ve heard about some other apps based on this idea but who said they can\'t be improved? We tried to do our best! Whole development stage was made in truly agile approach - tasks were divided among iterations, every idea was consulted with potential users and some well-known experts from IT companies, and to be honest - there is still a lot of work to do in front of us. And a lot of knowledge have already been gained!',
+            website: 'http://psmyrdek.github.io/it-learning/',
             features: ['ASP NET Core 1.0', 'Angular JS', 'LibGit2Sharp'],
             screens: [
                 {
@@ -90,7 +91,7 @@
             award: 'Microsoft Imagine Cup 2015 - 3rd Place',
             description: 'Our biggest success - 3rd place in Poland in Microsoft Imagine Cup 2015 contest - Innovation category. Untwisted was the most complex project which we\'ve made to this day. Except whole development process we had to create and coordinate a real product campaign. Starting from professional demo movie made by students from Film School of Łódź, through business plan for our prototype application and a lot more, at the IC finals we\'ve been appreciated by jury as one of top three teams from 2015 edition. It was another evidence for us that teamwork results in great achievements for all of us.',
             features: ['Web API 2', 'SignalR', 'Android'],
-            website: 'http://untwisted.azurewebsites.net/',
+            website: 'https://psmyrdek.github.io/Untwisted-Static',
             contributors: [
                 {
                     name: 'Jacek',
@@ -149,7 +150,7 @@
             award: 'Microsoft Imagine Cup 2014 - Top 30',
             description: 'Coordinator is a high-performance, real-time system dedicated to volunteer firefighters. With our solution they can easily cooperate with each other during emergency situations. Coordinator is also a social network for teams of firefighters who can set up their profiles, work and chat in teams and manage reports from actions there. It is based on ASP.NET MVC platform and SignalR library which helped us to create real-time data flow inside our solution. Coordinator was probably the most important project for us just because it was a first project which we\'ve managed (as we believe - successfully) together.',
             features: ['SignalR', 'Cross-platform', 'Google Maps API'],
-            website: 'http://coordinatorprototype.azurewebsites.net/',
+            website: 'https://lazys.github.io/Coordinator/',
             screens: [
                 {
                     name: 'coordinator_1.jpg',
