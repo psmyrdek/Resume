@@ -1,9 +1,9 @@
 var CACHE_NAME = 'resume-cache';
 var urlsToCache = [
-  '/',
-  '/app/dist/js/lib-scripts.min.js',
-  '/app/src/js/data/projects.js',
-  '/app/dist/js/app-scripts.min.js'
+  '/Resume/',
+  '/Resume/app/dist/js/lib-scripts.min.js',
+  '/Resume/app/src/js/data/projects.js',
+  '/Resume/app/dist/js/app-scripts.min.js'
 ];
 
 self.addEventListener('install', function(event) {
