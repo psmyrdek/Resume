@@ -1,6 +1,7 @@
 var CACHE_NAME = 'resume-cache';
 var urlsToCache = [
   '/Resume/',
+  '/Resume/?utm_source=homescreen',
   '/Resume/app/dist/js/lib-scripts.min.js',
   '/Resume/app/src/js/data/projects.js',
   '/Resume/app/dist/js/app-scripts.min.js'
