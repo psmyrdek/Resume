@@ -127,7 +127,7 @@
                 path_mini: './static/images/untwisted_5mini.jpg'
             }
         ],
-        presentation: './static/images/untwisted.pdf'
+        presentation: './static/pdf/untwisted.pdf'
     },
     {
         date: '01.2015',
@@ -176,7 +176,7 @@
                 path_mini: './static/images/coordinator_5mini.jpg'
             }
         ],
-        presentation: './static/images/coordinator.pdf'
+        presentation: './static/pdf/coordinator.pdf'
     }
 ];
 
