@@ -1,23 +1,10 @@
 {
-  "name": "international-collabo",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "CV / Resume project",
-  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git@github.com:psmyrdek/Resume.git"
   },
-  "keywords": [
-    "cv",
-    "resume",
-    "projects",
-    ".net",
-    "js",
-    "abystrek",
-    "psmyrdek"
-  ],
-  "author": "Przemek Smyrdek @psmyrdek",
-  "homepage": "http://webresume.azurewebsites.net/",
   "dependencies": {
     "jquery": "^2.2.0",
     "bootstrap": "^3.3.6",

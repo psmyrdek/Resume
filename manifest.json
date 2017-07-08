@@ -1,0 +1,25 @@
+{
+  "short_name": "Resume",
+  "name": "Smyrdek / Bystrek Resume",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#e23f00",
+  "icons": [
+    {
+      "src": "/static/icons/48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/static/icons/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/icons/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen"
+}
