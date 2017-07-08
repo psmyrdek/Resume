@@ -1,15 +1,22 @@
 @import 'globals';
 
+$footer-height: 50px;
+
 .footer {
+    width: 100%;
+	height: $footer-height;
+	position:absolute;
+	bottom:0;
+	left:0;
     background-color: $main-color;
     
     .footer-text {
         color: white;
         text-align: center;
         font-weight: 700;
-        position: relative;
         font-size: 18px;
-        top: 15px;
+        position: relative;
+        top: 10px;
         
         @include with-text-shadow;
     }

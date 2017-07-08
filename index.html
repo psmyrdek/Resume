@@ -14,9 +14,7 @@
     
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
-    
-    <link rel="stylesheet" href="app/dist/css/lib-styles.min.css">
-    <link rel="stylesheet" href="app/dist/css/app-styles.min.css">
+
 </head>
 <body data-spy="scroll" data-target="#navbar-menu">
     <section class="content">
@@ -74,14 +72,14 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-5 col-md-3 col-md-pull-6">
-                                    <img src="static/ic_przemek.jpg" alt="Przemek Smyrdek" class="profile-img img-responsive">
+                                    <img src="static/images/ic_przemek.jpg" alt="Przemek Smyrdek" class="profile-img img-responsive">
                                     <h4 class="profile-name">Przemek Smyrdek</h4>
                                     <button class="btn btn-danger btn-profile" data-toggle="modal" data-target="#smyrdek-modal">
                                         About me
                                     </button>
                                 </div>
                                 <div class="col-xs-5 col-xs-offset-2 col-md-3 col-md-offset-0">
-                                    <img src="static/ic_adrian.jpg" alt="Adrian Bystrek" class="profile-img img-responsive">
+                                    <img src="static/images/ic_adrian.jpg" alt="Adrian Bystrek" class="profile-img img-responsive">
                                     <h4 class="profile-name">Adrian Bystrek</h4>
                                     <button class="btn btn-danger btn-profile" data-toggle="modal" data-target="#bystrek-modal">
                                         About me
@@ -169,7 +167,7 @@
                     </div>
                 </div>
             </section>
-            <section id="tech-stack" class="site-section">
+            <section class="tech-stack site-section">
                 <div class="container">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="row">
@@ -382,7 +380,7 @@
         </section>
         <footer class="footer">
             <p class="footer-text">
-                Glad to meet you! | 2016
+                Glad to meet you! | 2017
             </p>
         </footer>
     </section>
@@ -468,14 +466,13 @@
         </div>
     </div>
     
-    <script src="app/dist/js/lib-scripts.min.js"></script>
-    <script src="app/src/js/data/projects.js"></script>
-    <script src="app/dist/js/app-scripts.min.js"></script>
+    <script src="dist/lib.bundle.js"></script>
+    <script src="dist/app.bundle.js"></script>
 
-    <script>
+    <!--<script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/Resume/sw.js').then(function(registration) {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }, function(err) {
@@ -484,7 +481,7 @@
                 });
             });
         }
-    </script>
+    </script>-->
     
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
