@@ -3,8 +3,8 @@
   "name": "Smyrdek / Bystrek Resume",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#e23f00",
-  "theme_color": "#e23f00",
+  "background_color": "#333",
+  "theme_color": "#333",
   "icons": [
     {
       "src": "static/icons/48.png",
