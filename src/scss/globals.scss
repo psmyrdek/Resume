@@ -1,21 +1,10 @@
 $main-color: #E23F00;
+$imagesPath: './images/';
 
 @mixin with-text-shadow {
     text-shadow: 0 2px 3px rgba(123, 0, 0, 0.4);
 }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
 @mixin with-animated-background($time) {
     -webkit-transition: background-color $time ease;
     -moz-transition: background-color $time ease;
@@ -23,20 +12,13 @@ $main-color: #E23F00;
     transition: background-color $time ease;
 }
 
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 @mixin with-animated-color($time) {
     -webkit-transition: color $time ease;
     -moz-transition: color $time ease;
     -o-transition: color $time ease;
     transition: color $time ease;
+}
+
+@mixin backgound-image($path) {
+    background-image: $imagesPath + $path;
 }

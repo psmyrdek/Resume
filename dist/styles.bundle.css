@@ -1,26 +1,3 @@
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 html,
 body {
   position: relative;
@@ -55,34 +32,11 @@ body {
   margin: 10px 0;
   line-height: 1.7; }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 #about {
   margin-bottom: 50px;
   background-position: center center;
   padding: 40px 0;
-  background-image: url("../../static/images/about_background.png"); }
+  background-image: "./images/about_background.png"; }
   #about .profiles-description {
     position: relative;
     top: 30px;
@@ -150,29 +104,6 @@ body {
       color: #E23F00;
       font-size: 25px; }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 .footer {
   width: 100%;
   height: 50px;
@@ -189,29 +120,6 @@ body {
     top: 10px;
     text-shadow: 0 2px 3px rgba(123, 0, 0, 0.4); }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 .motto {
   width: 100%; }
   @media screen and (min-width: 992px) {
@@ -245,29 +153,6 @@ body {
           width: 350px;
           margin: 0 auto; } }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 #page-navbar {
   width: 100%;
   position: fixed;
@@ -329,29 +214,6 @@ body {
             #page-navbar .page-navbar-content .page-navbar-menu ul li a:hover {
               text-decoration: none; }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 #projects .project-wrapper:last-child {
   padding-bottom: 50px; }
 
@@ -535,29 +397,6 @@ body {
             #projects .project-wrapper .project .project-content .listed-items .project-screen {
               margin-bottom: 5px; } }
 
-/**
-    Usage:
-    
-    .somediv {
-        background-color: red;
-        
-        @include with-animated-background(300ms);
-        &:hover {
-            background-color: green;
-        }
-    }
-*/
-/**
-    Usage:
-    
-    .somediv {
-        color: white;
-        @include with-animated-color(300ms);
-        &:hover {
-            color: red;
-        }
-    }
-*/
 .tech-stack .tech-item {
   text-align: center;
   width: 100%;
