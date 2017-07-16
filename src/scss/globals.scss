@@ -20,5 +20,5 @@ $imagesPath: './images/';
 }
 
 @mixin backgound-image($path) {
-    background-image: $imagesPath + $path;
+    background-image: url($imagesPath + $path);
 }
