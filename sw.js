@@ -1,6 +1,11 @@
-var CACHE_NAME = 'app-cache';
+const CACHE_NAME = 'app-cache';
 
-var urlsToCache = [ ];
+const urlsToCache = [
+  'index.html',
+  './dist/app.bundle.js',
+  './dist/lib.bundle.js',
+  './src/js/projects.js'
+];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => {
