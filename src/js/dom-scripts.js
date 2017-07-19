@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function showMenu() {
         $navbarMenu.classList.add(menuStatusClass);
-        $navbarMenu.show(menuTransitionSpeed);
+        $navbarMenu.style.display = 'block';
     }
     
     function hideMenu() {
         $navbarMenu.classList.remove(menuStatusClass);
-        $navbarMenu.hide(menuTransitionSpeed);
+        $navbarMenu.style.display = 'none';
     }
     
 });
