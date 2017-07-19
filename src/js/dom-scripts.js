@@ -1,4 +1,4 @@
-$(function() {
+document.addEventListener('DOMContentLoaded', function() {
     
     var $navbarMenuBtn = document.querySelector('.menu-toggle-btn'),
         $navbarMenu = document.querySelector('.page-navbar-menu'),
@@ -24,12 +24,12 @@ $(function() {
     });
     
     function showMenu() {
-        $navbarMenu.addClass(menuStatusClass);
+        $navbarMenu.classList.add(menuStatusClass);
         $navbarMenu.show(menuTransitionSpeed);
     }
     
     function hideMenu() {
-        $navbarMenu.removeClass(menuStatusClass);
+        $navbarMenu.classList.remove(menuStatusClass);
         $navbarMenu.hide(menuTransitionSpeed);
     }
     
