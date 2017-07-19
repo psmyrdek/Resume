@@ -17,9 +17,7 @@ module.exports = {
             jQuery: 'jquery',
             Vue: 'vue'
         }),
-        new webpack.optimize.UglifyJsPlugin({
-            sourceMap: false
-        })
+        new webpack.optimize.UglifyJsPlugin({})
     ],
     module: {
         rules: [
